@@ -1,0 +1,51 @@
+.vieri
+{
+  width: 550px;
+  padding:20px;
+  margin: 20px;
+  margin-right: 20px;
+  float:left;
+}
+#yksi{
+  background-color: #e0942f;
+}
+
+#kaksi{
+  background-color: #ebb9bd;
+}
+
+#kolme{
+  background-color: #edeb7b;
+}
+
+#nelja{
+  background-color: #7bedc9;
+}
+
+#viisi{
+  background-color: #b4c7ed;
+}
+
+#kuusi{
+  background-color: #6feded;
+}
+
+#seiska{
+  background-color: #e09292;
+}
+
+#kasi{
+  background-color: #c69ede
+}
+
+#ysi{
+  background-color: #92c4d6;
+}
+
+#kymppi{
+  background-color: #eaedce;
+}
+
+#yksitoista{
+  background-color: #7192e3;
+}
