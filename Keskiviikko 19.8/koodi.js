@@ -1,44 +1,44 @@
 function jarjesta()
 {
-  var luku1, luku2, luku3;
+  var yksi, kaksi, kolme;
   luku1 = parseInt(document.getElementById('eka').value);
   luku2 = parseInt(document.getElementById('toka').value);
   luku3 = parseInt(document.getElementById('kolmas').value);
-  document.write("Annoit luvut: " + luku1 + ' ' + luku2 + ' ' + luku3 + "<br>");
-  if(luku1 < luku2 && luku1 < luku3)
+  document.write("Annoit luvut: " + yksi + ' ' + kaksi + ' ' + kolme + "<br>");
+  if(yksi < kaksi && yksi < kolme)
   {
-    if(luku2 < luku3)
+    if(kaksi < kolme)
     {
-      document.write("Lukujen järjestys: " + luku1 + ' ' + luku2 + ' ' + luku3);
+      document.write("Lukujen järjestys: " + yksi + ' ' + kaksi + ' ' + kolme);
     }
     else {
-      document.write("Lukujen järjestys: " + luku1 + ' ' + luku3 + ' ' + luku2);
+      document.write("Lukujen järjestys: " + yksi + ' ' + kolme + ' ' + kaksi);
     }
   }
-  else if(luku2 < luku1 && luku2 < luku3)
+  else if(kaksi < yksi && kaksi < kolme)
   {
-    if(luku1<luku3)
+    if(yksi<kolme)
     {
-      document.write("Lukujen järjestys: " + luku2 + ' ' + luku1 + ' ' + luku3);
+      document.write("Lukujen järjestys: " + kaksi + ' ' + yksi + ' ' + kolme);
     }
     else {
-      document.write("Lukujen järjestys: " + luku2 + ' ' + luku3 + ' ' + luku1);
+      document.write("Lukujen järjestys: " + kaksi + ' ' + kolme + ' ' + yksi);
 
     }
   }
-  else if(luku3 < luku1 && luku3 < luku2)
+  else if(kolme < yksi && kolme < kaksi)
     {
-      if(luku1 < luku2)
+      if(yksi < kaksi)
       {
-        document.write("Lukujen järjestys: " + luku3 + ' ' + luku1 + ' ' + luku2);
+        document.write("Lukujen järjestys: " + kolme + ' ' + yksi + ' ' + kaksi);
       }
       else {
-        document.write("Lukujen järjestys: " + luku3 + ' ' + luku2 + ' ' + luku1);
+        document.write("Lukujen järjestys: " + kolme + ' ' + kaksi + ' ' + yksi);
 
       }
     }
   }
-function etsiSuurin()
+function suurinLuku()
   {
     var l1, l2, l3, l4, l5, suurin;
     l1 = parseInt(document.getElementById('luku1').value);
