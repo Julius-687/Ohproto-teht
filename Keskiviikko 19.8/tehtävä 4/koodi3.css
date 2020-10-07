@@ -1,6 +1,6 @@
 .juu {
   width: 240px;
-  height: 170px;
+  height: 210px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -10,5 +10,5 @@
 }
 
 #yksi {
-  background-color: #4ecc9c;
+  background-color: #744ecc;
 }

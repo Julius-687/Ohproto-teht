@@ -1,4 +1,4 @@
-function luvuntarkistus()
+function paritonParillinen()
   {
     var arvo;
     arvo = parseInt(document.getElementById('luku').value);
